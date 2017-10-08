@@ -22,7 +22,7 @@
 <jsp:useBean id="cart_listSvc" scope="page" class="com.cart_list.model.Cart_listService" />
 <jsp:useBean id="ActSvc" scope="page" class="com.act.model.ActService" />
 
-<jsp:include page="/FrontEnd/include/head.jsp"/>
+<jsp:include page="/FrontEnd/include/head.jsp"/>  
 <c:set var="mem_ac" value="${sessionScope.mem_ac}" scope="page"/>
 <c:set var="hotProdVOs" value="${sessionScope.hotProdVOs}" scope="page"/>
 <c:set var="prodVOs" value="${hotProdVOs}" scope="page"/>
